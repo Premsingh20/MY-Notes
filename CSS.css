@@ -1,0 +1,50 @@
+CSS ==> Cascading Style Sheets
+
+ /* Always use css in style section in head in internal CSS*/
+
+ /* We can target in part of the code by */
+ body {
+    background-color:#59C1BD;
+}
+
+hr {
+    background-color: red;
+    border-style: none; /* follow this to change hr tag css */
+    height: 2px;
+
+}
+
+/* To make hr dotted */
+hr {
+    border-style: dotted none none;
+    border-color: gray;
+    width: 30%;
+    border-width: 5px;
+
+}
+
+/* Priority in CSS is */
+1st - Inline Css
+2nd - Internal Css
+3rd - External Css
+
+/* MAIN How to write Css */
+selector(who?) {property(what?) : value(how?);}
+h1 {color : red;}
+
+
+/* Class attribute */ Class can be used multiple times in a single page.
+<img class="bacon circular" src="https://emojipedia-us" alt="bacon-img"> /* in HTML */
+
+.bacon {
+    background-color: green;
+} /* in CSS */
+
+
+/* Id attribute */ ID can be used only 1 time in a single page.
+<h1 id="heading">I Love Bacon</h1>
+
+#heading {
+    color: blue;
+}
+

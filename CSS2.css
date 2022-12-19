@@ -1,0 +1,77 @@
+/* How to add a favicon in our website */
+<link rel="icon" href="favicon.ico"> /* Inside head */
+
+/* We need to remove the default margin 1st */
+
+/* Common Block Elements */
+Paragraphs(<p>)
+Headers(<h1> through <h6>)
+Divisions(<div>)
+Lists and list items(<ol>,<ul>, and <li>)
+Forms(<form>)
+
+ /* Span */
+ use to highlight a section inbetween. /* Inline CSS */
+
+/* Common Inline Elements */
+Spans(<span>)
+images(<img>)
+Anchors(<a>)
+
+/* If we want to get both Block and Inline change the display property to inline-block */
+p {
+    display: inline:block;
+}
+
+/* Display */
+Block; It will block the whole row here we can adjust the width;
+Inline; It just takes minimum space but we cannot adjust the width;
+Inline-Block; This is the best and it will give the property of both;
+None; This makes the element disappear;
+
+/* Position */
+*Static - All the html elements are already in static position.
+*Relative - If we want to change the position of the image we use,
+img {
+    position: relative;
+    left: 30px;
+}
+
+/* Coordinates */
+Top
+Bottom
+Left
+Right 
+
+*Absolute - This changes the position and does not left any ghost space.
+.red {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+
+*Fixed - This will not move when we scroll the website.
+.yellow {
+    position: fixed;
+    top: 0;
+}
+
+/* text-align: center; is used to center things */
+ 
+/* 1st add in google fonts then copy the link and paste it in head */
+h1 {
+    margin-top: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Font Sizing */
+Always use rem.(1em = 16px)
+40px = 40/16 = 2.5rem.
+
+/* use float to make any text in right of img */
+.codingMan {
+    float: left;
+}
